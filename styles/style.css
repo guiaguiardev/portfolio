@@ -103,11 +103,17 @@ body {
 }
 
 .apresentacao__imagem {
-  width: 50%;
+  max-width: 50%;
+}
+
+.apresentacao__imagem-eu{
+  max-width: 40%;
+  border: solid var(--cor-terciaria);
+  border-radius: 10px; 
 }
 
 .rodape {
-  padding: 24px;
+  padding: 15px;
   color: var(--cor-primaria);
   background-color: var(--cor-terciaria);
   text-align: center;
